@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        int[] sales = new int[] {1, 2, 400, 600};
+        long[] sales = new long[] {1, 2, 400, 600};
         SalesManager salesManager = new SalesManager(sales);
 
-       int max = salesManager.max();
+        long max = salesManager.max();
 
        System.out.println(max);
     }
